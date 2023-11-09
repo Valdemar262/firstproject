@@ -1,0 +1,66 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'DM Sans', sans-serif;
+	font-size: 18px;
+	color: #FFF;
+	background: #191919;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.preview {
+	width: 1440px;
+}
+
+.container {
+	width: 1400px;
+	margin: 0 auto;
+}
+
+.preview-wrapper {
+	display: flex;
+	width: 92.8%;
+	margin: 0 auto;
+	padding-top: 2.8vw;
+}
+
+h1 {
+	font-size: 3.9em;
+	font-weight: 400;
+	margin: 0%;
+	padding-bottom: 6.25vw;
+	height: 24.6vw;
+	line-height: 130%;
+	letter-spacing: 0.1em;
+}
+
+p {
+	margin: 0 0 1em 1em;
+}
+
+.description {
+	width: 36.8vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	margin-left: 4.17vw;
+	margin-top: 20.4vw;
+}
+
+.contacts {
+	width: 17vw;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 1em;
+}
+
+.level {
+	font-weight: 700;
+}
+
+.listen {
+	font-size: 0.8em;
+}
