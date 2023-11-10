@@ -12,17 +12,18 @@ body {
 }
 
 .container-header {
-	width: 1440px;
+	max-width: 1440px;
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
-	margin: 26px 0;
-	padding: 0 50px;
+	margin: 1.8vw 0;
+	padding: 0 3.47vw;
 	height: 3.72em;
+	align-items: center;
 }
 
 .logo {
-	width: 9.1em;
+	width: 11.1vw;
 }
 
 .headers-button {
