@@ -1,0 +1,50 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'DM Sans', sans-serif;
+	font-size: 18px;
+	color: #FFF;
+	background: #191919;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.episodes {
+	max-width: 1440px;
+}
+
+.container {
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.episodes-wrapper {
+	width: 92.8%;
+	margin: 0 auto;
+}
+
+.episodes-title {
+	display: flex;
+	height: 7.6vw;
+	justify-content: space-between;
+	align-items: center;
+}
+
+h2 {
+	font-size: 3.2em;
+	height: 6.15vw;
+	width: 35.63vw;
+	margin: 0;
+}
+
+.general-button {
+	text-decoration: none;
+	color: #FFF;
+	border-radius: 0.33rem;
+	background: #118DA8;
+	height: 3.6vw;
+	width: 12.38vw;
+	padding: 0.67em 0.83em;
+}
