@@ -12,11 +12,11 @@ body {
 }
 
 .preview {
-	width: 1440px;
+	max-width: 1440px;
 }
 
 .container {
-	width: 1400px;
+	max-width: 1400px;
 	margin: 0 auto;
 }
 
@@ -32,7 +32,6 @@ h1 {
 	font-weight: 400;
 	margin: 0%;
 	padding-bottom: 6.25vw;
-	height: 24.6vw;
 	line-height: 130%;
 	letter-spacing: 0.1em;
 }
@@ -45,7 +44,6 @@ p {
 	width: 36.8vw;
 	display: flex;
 	flex-direction: column;
-	justify-content: start;
 	margin-left: 4.17vw;
 	margin-top: 20.4vw;
 }
