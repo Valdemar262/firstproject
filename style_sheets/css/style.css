@@ -20,23 +20,32 @@ body {
 	margin: 0 auto;
 }
 
+.scenes-wrapper {
+	max-width: 92.85%;
+	margin: 0 auto;
+	padding: 2.78vw 3.47vw 6.94vw 3.47vw;
+	font-weight: 400;
+}
+
 .episodes-wrapper {
 	width: 92.8%;
 	margin: 0 auto;
+	padding-top: 7vw;
+	padding-bottom: 2.78vw;
 }
 
 .episodes-title {
 	display: flex;
-	height: 7.6vw;
+	height: 6.9vw;
 	justify-content: space-between;
 	align-items: center;
 }
 
-h2 {
+.latest {
 	font-size: 3.2em;
-	height: 6.15vw;
-	width: 35.63vw;
 	margin: 0;
+	font-weight: 400;
+
 }
 
 .general-button {
@@ -44,7 +53,57 @@ h2 {
 	color: #FFF;
 	border-radius: 0.33rem;
 	background: #118DA8;
-	height: 3.6vw;
-	width: 12.38vw;
 	padding: 0.67em 0.83em;
+}
+
+.heading {
+	font-size: 3.2em;
+	margin: 1.25vw 0 1.94vw 0;
+	max-width: 48.68vw;
+	font-weight: 400;
+}
+
+.scene {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 4.16vw;
+	background: #000;
+	padding: 2.77vw;
+	border-radius: 1.78em;
+}
+
+.scene-imag {
+	display: box;
+	margin-right: 3.68vw;
+}
+
+.scene-discription {
+	width: 54vw;
+}
+
+.method {
+	background-color: #191919;
+	width: 4.27em;
+	padding: 0 1em;
+	border-radius: 0.33em;
+	margin-bottom: 3.3vw;
+}
+
+.method_2 {
+	background-color: #191919;
+	width: 7.9em;
+	padding: 0 1em;
+	border-radius: 0.33em;
+	margin-bottom: 3.3vw;
+}
+
+.transcript {
+	color: rgba(255, 255, 255, 0.70);
+	margin-bottom: 2.08vw;
+	font-size: 1.1em;
+	font-weight: 400;
+}
+
+.episode_№ {
+	color: #118DA8;
 }
