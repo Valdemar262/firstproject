@@ -21,8 +21,7 @@ body {
 }
 
 .scenes-wrapper {
-	max-width: 92.85%;
-	margin: 0 auto;
+	max-width: 97.27vw;
 	padding: 2.78vw 3.47vw 6.94vw 3.47vw;
 	font-weight: 400;
 }
