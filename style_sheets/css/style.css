@@ -11,23 +11,30 @@ body {
 	box-sizing: border-box;
 }
 
+section {
+	display: flex;
+	justify-content: center;
+}
+
 .preview {
-	max-width: 1440px;
+	width: 1440px;
 }
 
 .container {
-	max-width: 1400px;
+	width: 1400px;
 	margin: 0 auto;
 }
 
 .preview-wrapper {
 	display: flex;
-	width: 92.8%;
+	width: 90.28vw;
+	height: 63.45vw;
 	margin: 0 auto;
 	padding-top: 2.8vw;
 }
 
 h1 {
+	width: 36.5vw;
 	font-size: 3.9em;
 	font-weight: 400;
 	margin: 0%;
@@ -36,7 +43,7 @@ h1 {
 	letter-spacing: 0.1em;
 }
 
-p {
+.title-contacts {
 	margin: 0 0 1em 1em;
 }
 
@@ -44,14 +51,14 @@ p {
 	width: 36.8vw;
 	display: flex;
 	flex-direction: column;
-	margin-left: 4.17vw;
-	margin-top: 20.4vw;
+	padding: 20.4vw 0 0 4.17vw;
+
 }
 
 .contacts {
 	width: 17vw;
 	display: flex;
-	justify-content: space-between;
+	gap: 1em;
 	margin-left: 1em;
 }
 
