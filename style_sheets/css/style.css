@@ -11,6 +11,101 @@ body {
 	box-sizing: border-box;
 }
 
+.container-header {
+	max-width: 1440px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	margin: 1.8vw 0;
+	padding: 0 3.47vw;
+	height: 3.72em;
+	align-items: center;
+}
+
+.logo {
+	width: 11.1vw;
+}
+
+.headers-button {
+	color: #FFF;
+	text-decoration: none;
+	font-size: 95%;
+	font-weight: 200;
+}
+
+.headers-button-main {
+	color: #118DA8;
+	text-decoration: none;
+	font-size: 95%;
+}
+
+.header-menu {
+	display: flex;
+	align-items: center;
+	width: 22.4em;
+	justify-content: space-around;
+}
+
+section {
+	display: flex;
+	justify-content: center;
+}
+
+.preview {
+	width: 1440px;
+}
+
+.container {
+	width: 1400px;
+	margin: 0 auto;
+}
+
+.preview-wrapper {
+	display: flex;
+	width: 90.28vw;
+	height: 63.45vw;
+	margin: 0 auto;
+	padding-top: 2.8vw;
+}
+
+h1 {
+	width: 36.5vw;
+	font-size: 3.9em;
+	font-weight: 400;
+	margin: 0%;
+	padding-bottom: 6.25vw;
+	line-height: 130%;
+	letter-spacing: 0.1em;
+}
+
+.title-contacts {
+	margin: 0 0 1em 1em;
+}
+
+.description {
+	width: 36.8vw;
+	display: flex;
+	flex-direction: column;
+	padding: 20.4vw 0 0 4.17vw;
+
+}
+
+.contacts {
+	width: 17vw;
+	display: flex;
+	gap: 1em;
+	margin-left: 1em;
+}
+
+.level {
+	font-weight: 700;
+}
+
+.listen {
+	font-size: 0.8em;
+
+}
+
 .episodes {
 	max-width: 1440px;
 }
@@ -41,7 +136,7 @@ body {
 }
 
 .latest {
-	font-size: 3.2em;
+	font-size: 3.8em;
 	margin: 0;
 	font-weight: 400;
 
@@ -56,10 +151,11 @@ body {
 }
 
 .heading {
-	font-size: 3.2em;
+	font-size: 3.8em;
 	margin: 1.25vw 0 1.94vw 0;
-	max-width: 48.68vw;
+	max-width: 46.94vw;
 	font-weight: 400;
+	line-height: 110%;
 }
 
 .scene {
@@ -86,6 +182,7 @@ body {
 	padding: 0 1em;
 	border-radius: 0.33em;
 	margin-bottom: 3.3vw;
+	margin-top: 0em;
 }
 
 .method_2 {
@@ -94,13 +191,15 @@ body {
 	padding: 0 1em;
 	border-radius: 0.33em;
 	margin-bottom: 3.3vw;
+	margin-top: 0;
 }
 
 .transcript {
 	color: rgba(255, 255, 255, 0.70);
 	margin-bottom: 2.08vw;
-	font-size: 1.1em;
+	font-size: 1.2em;
 	font-weight: 400;
+	line-height: 150%;
 }
 
 .episode_№ {
