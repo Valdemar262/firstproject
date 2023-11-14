@@ -15,7 +15,7 @@ body {
 	padding-top: 1.44em;
 }
 
-.main-container {
+.header-container {
 	max-width: 1440px;
 	display: flex;
 	justify-content: space-between;
@@ -25,19 +25,19 @@ body {
 	margin: 0 auto;
 }
 
-.logo {
+.header-container_logo {
 	max-width: 11.1vw;
 	margin: 0.91em 0;
 }
 
-.headers-button {
+.headers-menu_button {
 	color: #FFF;
 	text-decoration: none;
 	font-size: 95%;
 	font-weight: 200;
 }
 
-.headers-button-main {
+.headers-menu_button-main {
 	color: #118DA8;
 	text-decoration: none;
 	font-size: 95%;
@@ -59,7 +59,7 @@ section {
 	max-width: 1440px;
 }
 
-.container {
+.preview-container {
 	max-width: 1400px;
 	margin: 0 auto;
 }
@@ -84,7 +84,7 @@ h1 {
 	margin: 0 0 1em 1em;
 }
 
-.description {
+.preview-description {
 	max-width: 32.5em;
 	display: flex;
 	flex-direction: column;
@@ -92,14 +92,14 @@ h1 {
 	justify-content: center;
 }
 
-.contacts {
+.contacts-wrapper_contacts {
 	max-width: 17vw;
 	display: flex;
 	gap: 1em;
 	margin-left: 1em;
 }
 
-.level {
+.preview-description_big-font {
 	font-weight: 700;
 }
 
@@ -112,7 +112,7 @@ h1 {
 	max-width: 1440px;
 }
 
-.container {
+.episodes-container {
 	max-width: 1400px;
 	margin: 0 auto;
 }
@@ -137,14 +137,14 @@ h1 {
 	align-items: center;
 }
 
-.latest {
+.episodes-title_text {
 	font-size: 3.8em;
 	margin: 0;
 	font-weight: 400;
 
 }
 
-.general-button {
+.episodes-title_general-button {
 	text-decoration: none;
 	color: #FFF;
 	border-radius: 0.33rem;
@@ -152,7 +152,15 @@ h1 {
 	padding: 0.67em 0.83em;
 }
 
-.scene-title {
+.scene-description_button {
+	text-decoration: none;
+	color: #FFF;
+	border-radius: 0.33rem;
+	background: #118DA8;
+	padding: 0.67em 0.83em;
+}
+
+.scene-description_title {
 	font-size: 3.8em;
 	margin: 1.25vw 0 1.94vw 0;
 	max-width: 46.94vw;
@@ -160,7 +168,7 @@ h1 {
 	line-height: 110%;
 }
 
-.scene {
+.scene-container {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 4.16vw;
@@ -169,7 +177,7 @@ h1 {
 	border-radius: 1.78em;
 }
 
-.scene-image {
+.scene-container_image {
 	display: box;
 	margin-right: 3.68vw;
 }
@@ -178,7 +186,7 @@ h1 {
 	max-width: 54vw;
 }
 
-.method {
+.scene-description_method {
 	background-color: #191919;
 	max-width: 4.27em;
 	padding: 0 1em;
@@ -187,7 +195,7 @@ h1 {
 	margin-top: 0em;
 }
 
-.method_2 {
+.scene-description_method_2 {
 	background-color: #191919;
 	max-width: 7.9em;
 	padding: 0 1em;
@@ -196,7 +204,7 @@ h1 {
 	margin-top: 0;
 }
 
-.scene-information {
+.scene-description_information {
 	color: rgba(255, 255, 255, 0.70);
 	margin-bottom: 2.08vw;
 	font-size: 1.2em;
@@ -204,6 +212,6 @@ h1 {
 	line-height: 150%;
 }
 
-.episode_№ {
+.scene-description_episode_№ {
 	color: #118DA8;
 }
