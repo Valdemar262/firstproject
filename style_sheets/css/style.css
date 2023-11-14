@@ -15,7 +15,7 @@ body {
 	padding-top: 1.44em;
 }
 
-.container-header {
+.main-container {
 	max-width: 1440px;
 	display: flex;
 	justify-content: space-between;
@@ -93,7 +93,7 @@ h1 {
 }
 
 .contacts {
-	width: 17vw;
+	max-width: 17vw;
 	display: flex;
 	gap: 1em;
 	margin-left: 1em;
@@ -103,7 +103,7 @@ h1 {
 	font-weight: 700;
 }
 
-.listen {
+.contacts-wrapper {
 	font-size: 0.8em;
 
 }
@@ -124,7 +124,7 @@ h1 {
 }
 
 .episodes-wrapper {
-	width: 92.8%;
+	max-width: 92.8%;
 	margin: 0 auto;
 	padding-top: 5.55em;
 	padding-bottom: 2.78vw;
@@ -152,7 +152,7 @@ h1 {
 	padding: 0.67em 0.83em;
 }
 
-.heading {
+.scene-title {
 	font-size: 3.8em;
 	margin: 1.25vw 0 1.94vw 0;
 	max-width: 46.94vw;
@@ -169,12 +169,12 @@ h1 {
 	border-radius: 1.78em;
 }
 
-.scene-imag {
+.scene-image {
 	display: box;
 	margin-right: 3.68vw;
 }
 
-.scene-discription {
+.scene-description {
 	width: 54vw;
 }
 
@@ -196,7 +196,7 @@ h1 {
 	margin-top: 0;
 }
 
-.transcript {
+.scene-information {
 	color: rgba(255, 255, 255, 0.70);
 	margin-bottom: 2.08vw;
 	font-size: 1.2em;
