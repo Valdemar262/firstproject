@@ -175,12 +175,12 @@ h1 {
 }
 
 .scene-description {
-	width: 54vw;
+	max-width: 54vw;
 }
 
 .method {
 	background-color: #191919;
-	width: 4.27em;
+	max-width: 4.27em;
 	padding: 0 1em;
 	border-radius: 0.33em;
 	margin-bottom: 3.3vw;
@@ -189,7 +189,7 @@ h1 {
 
 .method_2 {
 	background-color: #191919;
-	width: 7.9em;
+	max-width: 7.9em;
 	padding: 0 1em;
 	border-radius: 0.33em;
 	margin-bottom: 3.3vw;
