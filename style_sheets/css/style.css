@@ -26,7 +26,7 @@ body {
 }
 
 .header-container_logo {
-	max-width: 11.1vw;
+	max-width: 8.9em;
 	margin: 0.91em 0;
 }
 
@@ -46,8 +46,10 @@ body {
 .header-menu {
 	display: flex;
 	align-items: center;
-	max-width: 22.4em;
+	max-width: 28vw;
 	justify-content: space-around;
+	gap: 2.2em;
+	padding: 1.12em;
 }
 
 section {
@@ -69,6 +71,9 @@ section {
 	max-width: 90.28vw;
 	margin: 0 auto;
 	padding-top: 2.8vw;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
 }
 
 h1 {
@@ -161,7 +166,7 @@ h1 {
 }
 
 .scene-description_title {
-	font-size: 3.8em;
+	font-size: 5vw;
 	margin: 1.25vw 0 1.94vw 0;
 	max-width: 46.94vw;
 	font-weight: 400;
@@ -170,20 +175,22 @@ h1 {
 
 .scene-container {
 	display: flex;
-	justify-content: space-between;
 	margin-bottom: 4.16vw;
 	background: #000;
-	padding: 2.77vw;
+	padding: 2.22em;
 	border-radius: 1.78em;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
 }
 
 .scene-container_image {
 	display: box;
-	margin-right: 3.68vw;
+	margin-right: 2.93em;
 }
 
 .scene-description {
-	max-width: 54vw;
+	max-width: 37em;
 }
 
 .scene-description_method {
