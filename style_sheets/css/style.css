@@ -26,7 +26,7 @@ body {
 }
 
 .header-container_logo {
-	max-width: 11.1vw;
+	max-width: 11.1em;
 	margin: 0.91em 0;
 }
 
@@ -48,6 +48,7 @@ body {
 	align-items: center;
 	max-width: 22.4em;
 	justify-content: space-around;
+	gap: 1.2em;
 }
 
 section {
@@ -71,8 +72,13 @@ section {
 	padding-top: 2.8vw;
 }
 
+.preview_image {
+	display: flex;
+	align-items: center;
+}
+
 h1 {
-	font-size: 3.9em;
+	font-size: 4.7vw;
 	font-weight: 400;
 	margin: 0;
 	padding-bottom: 6.25vw;
@@ -138,7 +144,7 @@ h1 {
 }
 
 .episodes-title_text {
-	font-size: 3.8em;
+	font-size: 5.4vw;
 	margin: 0;
 	font-weight: 400;
 
@@ -161,7 +167,7 @@ h1 {
 }
 
 .scene-description_title {
-	font-size: 3.8em;
+	font-size: 5.1vw;
 	margin: 1.25vw 0 1.94vw 0;
 	max-width: 46.94vw;
 	font-weight: 400;
@@ -178,7 +184,8 @@ h1 {
 }
 
 .scene-container_image {
-	display: box;
+	display: flex;
+	align-items: center;
 	margin-right: 3.68vw;
 }
 
@@ -213,4 +220,8 @@ h1 {
 
 .scene-description_episode {
 	color: #118DA8;
+}
+
+.chocolate {
+	width: 100%;
 }
