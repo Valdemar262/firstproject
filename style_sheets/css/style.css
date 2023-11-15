@@ -46,7 +46,7 @@ body {
 .header-menu {
 	display: flex;
 	align-items: center;
-	width: 22.4em;
+	max-width: 22.4em;
 	justify-content: space-around;
 }
 
@@ -192,7 +192,7 @@ h1 {
 	padding: 0 1em;
 	border-radius: 0.33em;
 	margin-bottom: 3.3vw;
-	margin-top: 0em;
+	margin-top: 0;
 }
 
 .scene-description_method_2 {
@@ -200,8 +200,7 @@ h1 {
 	max-width: 7.9em;
 	padding: 0 1em;
 	border-radius: 0.33em;
-	margin-bottom: 3.3vw;
-	margin-top: 0;
+	margin: 0 0 3.3vw 0;
 }
 
 .scene-description_information {
@@ -212,6 +211,6 @@ h1 {
 	line-height: 150%;
 }
 
-.scene-description_episode_№ {
+.scene-description_episode {
 	color: #118DA8;
 }
