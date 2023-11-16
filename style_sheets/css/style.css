@@ -72,9 +72,19 @@ section {
 	padding-top: 2.8vw;
 }
 
+.element-decor {
+	position: absolute;
+}
+
+.decor-1 {
+	max-width: 5.44vw;
+}
+
 .preview_image {
 	display: flex;
 	align-items: center;
+	position: relative;
+	padding: 1.173vw 0 0 1.1vw;
 }
 
 h1 {
