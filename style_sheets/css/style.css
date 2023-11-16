@@ -74,17 +74,17 @@ section {
 
 .element-decor {
 	position: absolute;
+	z-index: 1;
 }
 
 .decor-1 {
-	max-width: 5.44vw;
+	width: 4.74vw;
 }
 
 .preview_image {
 	display: flex;
 	align-items: center;
-	position: relative;
-	padding: 1.173vw 0 0 1.1vw;
+	padding: 1.8vw 0 0 1.8vw;
 }
 
 h1 {
@@ -113,6 +113,10 @@ h1 {
 	display: flex;
 	gap: 1em;
 	margin-left: 1em;
+}
+
+.contacts_application {
+	width: 2.2vw;
 }
 
 .preview-description_big-font {
