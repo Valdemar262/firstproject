@@ -11,29 +11,32 @@ body {
 	box-sizing: border-box;
 }
 
-.container-header {
+.header {
+	padding-top: 1.44em;
+}
+
+.header-container {
 	max-width: 1440px;
-	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
-	margin: 1.8vw 0;
-	padding: 0 3.47vw;
+	padding: 0 min(50px, 3.47vw);
 	height: 3.72em;
-	align-items: center;
+	margin: 0 auto;
 }
 
-.logo {
-	width: 11.1vw;
+.header-container_logo {
+	max-width: 11.1em;
+	margin: 0.91em 0;
 }
 
-.headers-button {
+.headers-menu_button {
 	color: #FFF;
 	text-decoration: none;
 	font-size: 95%;
 	font-weight: 200;
 }
 
-.headers-button-main {
+.headers-menu_button-main {
 	color: #118DA8;
 	text-decoration: none;
 	font-size: 95%;
@@ -42,8 +45,9 @@ body {
 .header-menu {
 	display: flex;
 	align-items: center;
-	width: 22.4em;
+	max-width: 22.4em;
 	justify-content: space-around;
+	gap: 1.2em;
 }
 
 section {
@@ -52,28 +56,42 @@ section {
 }
 
 .preview {
-	width: 1440px;
+	max-width: 1440px;
 }
 
-.container {
-	width: 1400px;
+.preview-container {
+	max-width: 1400px;
 	margin: 0 auto;
 }
 
 .preview-wrapper {
 	display: flex;
-	width: 90.28vw;
-	height: 63.45vw;
+	max-width: 90.28vw;
 	margin: 0 auto;
-	padding-top: 2.8vw;
+	padding-top: min(40px, 2.8vw);
+}
+
+.element-decor {
+	position: absolute;
+	z-index: 1;
+}
+
+.decor-1 {
+	width: 4.74vw;
+	max-width: 68px;
+}
+
+.preview_image {
+	display: flex;
+	align-items: center;
+	padding: min(26px, 1.8vw) 0 0 min(26px, 1.8vw);
 }
 
 h1 {
-	width: 36.5vw;
-	font-size: 3.9em;
+	font-size: min(max(75px), 5.2vw);
 	font-weight: 400;
-	margin: 0%;
-	padding-bottom: 6.25vw;
+	margin: 0;
+	padding-bottom: min(90px, 6.25vw);
 	line-height: 130%;
 	letter-spacing: 0.1em;
 }
@@ -82,25 +100,148 @@ h1 {
 	margin: 0 0 1em 1em;
 }
 
-.description {
-	width: 36.8vw;
+.preview-description {
+	width: min(634px, 44.1vw);
 	display: flex;
 	flex-direction: column;
-	padding: 20.4vw 0 0 4.17vw;
-
+	padding-left: 3.3em;
+	justify-content: center;
 }
 
-.contacts {
-	width: 17vw;
+.contacts-wrapper_contacts {
+	max-width: 17vw;
 	display: flex;
 	gap: 1em;
 	margin-left: 1em;
 }
 
-.level {
+.contacts_application {
+	width: 2.2vw;
+	max-width: 32px;
+}
+
+.preview-description_big-font {
 	font-weight: 700;
 }
 
-.listen {
+.contacts-wrapper {
 	font-size: 0.8em;
+
+}
+
+.episodes {
+	max-width: 1440px;
+}
+
+.episodes-container {
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.scenes-wrapper {
+	max-width: 97.27vw;
+	padding: 0 min(50px, 3.47vw) min(100px, 5.5em) min(50px, 3.47vw);
+	font-weight: 400;
+}
+
+.episodes-wrapper {
+	max-width: 92.8%;
+	margin: 0 auto;
+	padding-top: min(100px, 6.94vw);
+	padding-bottom: min(40px, 2.78vw);
+}
+
+.episodes-title {
+	display: flex;
+	height: min(99px, 6.9vw);
+	justify-content: space-between;
+	align-items: center;
+}
+
+.episodes-title_text {
+	font-size: min(max(70px), 5.4vw);
+	margin: 0;
+	font-weight: 400;
+
+}
+
+.episodes-title_general-button {
+	text-decoration: none;
+	color: #FFF;
+	border-radius: 0.33rem;
+	background: #118DA8;
+	padding: 0.67em 0.83em;
+}
+
+.scene-description_button {
+	text-decoration: none;
+	color: #FFF;
+	border-radius: 0.33rem;
+	background: #118DA8;
+	padding: 0.67em 0.83em;
+}
+
+.scene-description_title {
+	font-size: min(max(65px), 5.1vw);
+	margin: min(18px, 1.25vw) 0 min(28px, 1.94vw) 0;
+	width: min(701px, 48.54vw);
+	font-weight: 400;
+	line-height: 110%;
+}
+
+.scene-container {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: min(60px, 4.16vw);
+	background: #000;
+	padding: min(40px, 2.77vw);
+	border-radius: 1.78em;
+}
+
+.scene-container_image {
+	display: flex;
+	align-items: center;
+	margin-right: min(53px, 3.68vw);
+}
+
+.scene-description {
+	max-width: 54vw;
+}
+
+.scene-description_method {
+	background-color: #191919;
+	max-width: 4.27em;
+	padding: 0 1em;
+	border-radius: 0.33em;
+	margin-bottom: min(48px, 3.3vw);
+	margin-top: 0;
+}
+
+.scene-description_method_2 {
+	background-color: #191919;
+	max-width: 7.9em;
+	padding: 0 1em;
+	border-radius: 0.33em;
+	margin: 0 0 min(48px, 3.3vw) 0;
+}
+
+.scene-description_information {
+	color: rgba(255, 255, 255, 0.70);
+	margin-bottom: min(30px, 2.08vw);
+	font-size: 1.2em;
+	font-weight: 400;
+	line-height: 150%;
+	width: min(757px, 52.56vw);
+}
+
+.scene-description_episode {
+	color: #118DA8;
+}
+
+.avatar {
+	width: 100%;
+}
+
+.musical_tools {
+	width: 100%;
 }
