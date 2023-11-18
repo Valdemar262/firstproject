@@ -19,8 +19,7 @@ body {
 	max-width: 1440px;
 	display: flex;
 	justify-content: space-between;
-	margin: 1.8vw 0;
-	padding: 0 3.47vw;
+	padding: 0 min(50px, 3.47vw);
 	height: 3.72em;
 	margin: 0 auto;
 }
@@ -69,7 +68,7 @@ section {
 	display: flex;
 	max-width: 90.28vw;
 	margin: 0 auto;
-	padding-top: 2.8vw;
+	padding-top: min(40px, 2.8vw);
 }
 
 .element-decor {
@@ -79,19 +78,20 @@ section {
 
 .decor-1 {
 	width: 4.74vw;
+	max-width: 68px;
 }
 
 .preview_image {
 	display: flex;
 	align-items: center;
-	padding: 1.8vw 0 0 1.8vw;
+	padding: min(26px, 1.8vw) 0 0 min(26px, 1.8vw);
 }
 
 h1 {
-	font-size: 4.7vw;
+	font-size: min(max(75px), 5.2vw);
 	font-weight: 400;
 	margin: 0;
-	padding-bottom: 6.25vw;
+	padding-bottom: min(90px, 6.25vw);
 	line-height: 130%;
 	letter-spacing: 0.1em;
 }
@@ -101,7 +101,7 @@ h1 {
 }
 
 .preview-description {
-	max-width: 32.5em;
+	width: min(634px, 44.1vw);
 	display: flex;
 	flex-direction: column;
 	padding-left: 3.3em;
@@ -117,6 +117,7 @@ h1 {
 
 .contacts_application {
 	width: 2.2vw;
+	max-width: 32px;
 }
 
 .preview-description_big-font {
@@ -139,26 +140,26 @@ h1 {
 
 .scenes-wrapper {
 	max-width: 97.27vw;
-	padding: 0 3.47vw 5.5em 3.47vw;
+	padding: 0 min(50px, 3.47vw) min(100px, 5.5em) min(50px, 3.47vw);
 	font-weight: 400;
 }
 
 .episodes-wrapper {
 	max-width: 92.8%;
 	margin: 0 auto;
-	padding-top: 5.55em;
-	padding-bottom: 2.78vw;
+	padding-top: min(100px, 6.94vw);
+	padding-bottom: min(40px, 2.78vw);
 }
 
 .episodes-title {
 	display: flex;
-	height: 6.9vw;
+	height: min(99px, 6.9vw);
 	justify-content: space-between;
 	align-items: center;
 }
 
 .episodes-title_text {
-	font-size: 5.4vw;
+	font-size: min(max(70px), 5.4vw);
 	margin: 0;
 	font-weight: 400;
 
@@ -181,9 +182,9 @@ h1 {
 }
 
 .scene-description_title {
-	font-size: 5.1vw;
-	margin: 1.25vw 0 1.94vw 0;
-	max-width: 46.94vw;
+	font-size: min(max(65px), 5.1vw);
+	margin: min(18px, 1.25vw) 0 min(28px, 1.94vw) 0;
+	width: min(701px, 48.54vw);
 	font-weight: 400;
 	line-height: 110%;
 }
@@ -191,16 +192,16 @@ h1 {
 .scene-container {
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 4.16vw;
+	margin-bottom: min(60px, 4.16vw);
 	background: #000;
-	padding: 2.77vw;
+	padding: min(40px, 2.77vw);
 	border-radius: 1.78em;
 }
 
 .scene-container_image {
 	display: flex;
 	align-items: center;
-	margin-right: 3.68vw;
+	margin-right: min(53px, 3.68vw);
 }
 
 .scene-description {
@@ -212,7 +213,7 @@ h1 {
 	max-width: 4.27em;
 	padding: 0 1em;
 	border-radius: 0.33em;
-	margin-bottom: 3.3vw;
+	margin-bottom: min(48px, 3.3vw);
 	margin-top: 0;
 }
 
@@ -221,19 +222,24 @@ h1 {
 	max-width: 7.9em;
 	padding: 0 1em;
 	border-radius: 0.33em;
-	margin: 0 0 3.3vw 0;
+	margin: 0 0 min(48px, 3.3vw) 0;
 }
 
 .scene-description_information {
 	color: rgba(255, 255, 255, 0.70);
-	margin-bottom: 2.08vw;
+	margin-bottom: min(30px, 2.08vw);
 	font-size: 1.2em;
 	font-weight: 400;
 	line-height: 150%;
+	width: min(757px, 52.56vw);
 }
 
 .scene-description_episode {
 	color: #118DA8;
+}
+
+.avatar {
+	width: 100%;
 }
 
 .chocolate {
