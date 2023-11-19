@@ -245,3 +245,58 @@ h1 {
 .musical_tools {
 	width: 100%;
 }
+
+.epilogue {
+	max-width: 97.2%;
+	margin: 0 auto;
+}
+
+.epilogue-container {
+	max-width: 90.27vw;
+	margin: 0 auto;
+}
+
+.epilogue-wrapper {
+	margin: min(100px, 6.94vw) 0;
+	display: flex;
+	gap: min(60px, 4.16vw);
+}
+
+.epilogue-description {
+	width: min(590px, 40.97vw);
+	align-self: center;
+}
+
+.epilogue-description_arrow {
+	padding: min(36px, 2.5vw) min(19.8px, 1.375vw);
+	background: #118DA8;
+	border-radius: 27.7vw;
+	width: min(112px, 7.93vw);
+}
+
+.epilogue-description_appeal {
+	color: #118DA8;
+	margin-bottom: 0;
+}
+
+h2 {
+	font-size: min(65px, 4.3vw);
+	margin: 0;
+	font-weight: 400;
+}
+
+h4 {
+	color: rgba(255, 255, 255, 0.70);
+	margin-bottom: min(33px, 2.08vw);
+	font-size: 1.2em;
+	font-weight: 400;
+	line-height: 150%;
+}
+
+.epilogue-image {
+	align-self: center;
+}
+
+.epilogue-image_photo {
+	width: 100%;
+}
