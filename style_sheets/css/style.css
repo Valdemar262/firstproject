@@ -51,8 +51,8 @@ body {
 }
 
 section {
-	display: flex;
-	justify-content: center;
+	max-width: 1440px;
+	margin: 0 auto;
 }
 
 .preview {
@@ -254,6 +254,7 @@ h1 {
 .epilogue-container {
 	max-width: 90.27vw;
 	margin: 0 auto;
+	padding: 0 min(50px, 3.472vw);
 }
 
 .epilogue-wrapper {
@@ -299,4 +300,70 @@ h4 {
 
 .epilogue-image_photo {
 	width: 100%;
+}
+
+.questionnaire {
+	max-width: 1440px;
+	position: relative;
+}
+
+.questionnaire-container {
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: min(100px, 6.94vw) min(50px, 3.47vw);
+}
+
+.questionnaire-wrapper {
+	width: min(1300px, 90.27vw);
+	margin: 0 auto;
+	display: flex;
+	background: #000;
+	border-radius: min(32px, 2.22vw);
+	padding: min(60px, 4.16vw);
+	justify-content: space-between;
+	align-items: center;
+}
+
+.questionnaire-wrapper_legend {
+	color: #118DA8;
+	margin: 0;
+}
+
+.questionnaire_title {
+	width: min(400px, 28.9vw);
+	font-size: min(75px, 5.2vw);
+	line-height: 110%;
+}
+
+.personal-information {
+	width: min(522px, 36.25vw);
+	height: min(82px, 5.7vw);
+	background: #191919;
+	border: 1px solid #191919;
+	border-radius: 6px;
+	font-size: min(24px, 1.66vw);
+	color: rgba(255, 255, 255, 0.70);
+	padding-left: min(19px, 1.32vw);
+	margin-bottom: min(20px, 1.38vw);
+}
+
+.submit_btn {
+	padding: min(10px, 0.7vw) min(18px, 1.25vw);
+	border-radius: 6px;
+	background: #118DA8;
+	font-size: min(15px, 1vw);
+	color: rgba(255, 255, 255, 0.70);
+	border: 1px solid #191919;
+}
+
+.questionnaire::after {
+	content: "";
+	background-image: url("../images/decor-2.svg");
+	display: block;
+	background-size: cover;
+	width: min(147px, 10.2083vw);
+	height: min(91px, 6.3194vw);
+	position: absolute;
+	bottom: min(74px, 5.138vw);
+	left: min(32px, 2.22vw);
 }
