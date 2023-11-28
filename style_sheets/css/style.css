@@ -409,6 +409,74 @@ h3 {
 
 .star {
 	width: min(18px, 1.25vw);
+}
+
+.footer {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.footer-container {
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.footer-wrapper {
+	width: min(1300px, 90.27vw);
+	display: flex;
+	padding: min(100px, 6.94vw) 0;
+	margin: 0 auto;
+}
+
+.emblem-logo {
+	width: min(224px, 15.55vw);
+	margin-bottom: min(23px, 1.6vw);
+}
+
+.footer-wrapper_emblem {
+	display: flex;
+	flex-direction: column;
+	width: min(463px, 32.15vw);
+}
+
+.footer-wrapper_menu,
+.footer-wrapper_help {
+	width: min(195px, 13.54vw);
+	padding-left: min(16px, 1.1vw);
+}
+
+.footer-wrapper_application {
+	width: min(447px, 31.04vw);
+	padding-left: min(16px, 1.1vw);
+}
+
+.menu-content_button,
+.help-key_button {
+	color: #FFF;
+	text-decoration: none;
+	font-size: min(18px, 1.25vw);
+	font-weight: 200;
+}
+
+.menu-content,
+.help-key {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.application-icon {
+	display: flex;
+	gap: 17px;
 	bottom: min(74px, 5.138vw);
 	left: min(32px, 2.22vw);
+}
+
+.application-button {
+	width: 2.2vw;
+	max-width: 32px;
+}
+
+.messenger {
+	width: min(24px, 1.67vw);
 }
