@@ -186,6 +186,7 @@ h1::after {
 }
 
 .episodes-title {
+	width: min(1300px, 90.27vw);
 	display: flex;
 	height: min(99px, 6.9vw);
 	justify-content: space-between;
