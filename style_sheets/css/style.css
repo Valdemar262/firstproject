@@ -176,6 +176,7 @@ h1::after {
 	max-width: 97.27vw;
 	padding: 0 min(50px, 3.47vw) min(100px, 5.5em) min(50px, 3.47vw);
 	font-weight: 400;
+	margin: 0 auto;
 }
 
 .episodes-wrapper {
@@ -191,6 +192,7 @@ h1::after {
 	height: min(99px, 6.9vw);
 	justify-content: space-between;
 	align-items: center;
+	margin: 0 auto;
 }
 
 .episodes-title_text {
@@ -205,7 +207,8 @@ h1::after {
 	color: #FFF;
 	border-radius: 0.33rem;
 	background: #118DA8;
-	padding: 0.67em 0.83em;
+	padding: min(15px, 1.04vw) min(12px, 0.83vw);
+	font-size: min(18px, 1.25vw);
 }
 
 .scene-description_button {
@@ -213,7 +216,8 @@ h1::after {
 	color: #FFF;
 	border-radius: 0.33rem;
 	background: #118DA8;
-	padding: 0.67em 0.83em;
+	padding: min(15px, 1.04vw) min(12px, 0.83vw);
+	font-size: min(18px, 1.25vw);
 }
 
 .button {
@@ -264,25 +268,26 @@ h1::after {
 
 .scene-description_method {
 	background-color: #191919;
-	max-width: 4.27em;
+	max-width: min(76px, 5.27vw);
 	padding: 0 1em;
 	border-radius: 0.33em;
 	margin-bottom: min(48px, 3.3vw);
 	margin-top: 0;
+	font-size: min(18px, 1.25vw);
 }
 
 .scene-description_method_2 {
 	background-color: #191919;
-	max-width: 7.9em;
+	max-width: min(143px, 9.93vw);
 	padding: 0 1em;
 	border-radius: 0.33em;
 	margin: 0 0 min(48px, 3.3vw) 0;
+	font-size: min(18px, 1.25vw);
 }
 
 .scene-description_information {
 	color: rgba(255, 255, 255, 0.70);
 	margin-bottom: min(30px, 2.08vw);
-	font-size: 1.2em;
 	font-weight: 400;
 	line-height: 150%;
 	width: min(757px, 52.56vw);
@@ -290,6 +295,7 @@ h1::after {
 
 .scene-description_episode {
 	color: #118DA8;
+	font-size: min(18px, 1.25vw);
 }
 
 .avatar {
