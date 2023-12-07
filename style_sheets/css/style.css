@@ -24,7 +24,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	padding: 0 min(50px, 3.47vw);
-	height: height: min(67px, 4.65vw);
+	height: min(67px, 4.65vw);
 	margin: 0 auto;
 }
 
